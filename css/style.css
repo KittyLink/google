@@ -5,16 +5,48 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(255, 198, 128);
+  background-color: rgb(197, 253, 160);
 }
 .img1 {
   width: 100vw;
-  height: 500px;
+  height: 450px;
 }
 .div1 {
+  display: flex;
+  justify-content:space-around;
+  align-items:centers;
+
+}
+.math {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-
+  background-color:rgb(197, 253, 160) ;
+  box-shadow: 10px 10px 10px 3px rgb(169, 255, 111) ;
+}
+.physics{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color:rgb(197, 253, 160) ;
+  box-shadow: 10px 10px 10px 3px rgb(169, 255, 111) ;
+}
+.chemistry{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; 
+  background-color:rgb(197, 253, 160) ;
+  box-shadow: 10px 10px 10px 3px rgb(169, 255, 111) ;
+}
+.physics img {
+  width: 400px;
+}
+.chemistry img{
+  width: 400px;
+}
+.math img{
+  width: 400px;
 }
