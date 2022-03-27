@@ -1,0 +1,18 @@
+html{
+    background:rgb(251, 252, 184) ;
+}
+.power{
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color:rgb(197, 253, 160) ;
+  box-shadow: 10px 10px 10px 3px rgb(169, 255, 111) ;
+  margin:0 auto;
+  width: 600px;
+
+}
+.f{
+    margin: 40px auto;
+    width: 700px;
+}

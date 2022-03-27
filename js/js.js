@@ -25,3 +25,11 @@
 //     }
 
 // }, 3500)
+let df = document.querySelector(".button1")
+df.addEventListener("click" , (e) =>{
+
+    let a= document.querySelector('.power-a').value
+    let b= document.querySelector('.power-b').value
+    let c = a**b
+    document.querySelector('.powers-answer').textContent = c
+})
