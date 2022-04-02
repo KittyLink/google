@@ -33,3 +33,24 @@ df.addEventListener("click" , (e) =>{
     let c = a**b
     document.querySelector('.powers-answer').textContent = c
 })
+let s=document.querySelector(".button2")
+s.addEventListener("click" , (e) =>{
+    let a= document.querySelector('.a2').value
+    let b= document.querySelector('.b2').value
+    let c= a*b
+    document.querySelector('.powers-answer2').textContent =c
+
+})
+let k=document.querySelector(".button3")
+k.addEventListener("click" , (e) =>{
+    let x= document.querySelector('.d').value
+    let d= Math.PI*x
+    document.querySelector('.powers-answer3').textContent =d
+})
+let density=document.querySelector(".button4")
+density.addEventListener("click" , (e) =>{
+    let a= document.querySelector('.weight').value
+    let b= document.querySelector('.volume').value
+    let c=a/b
+    document.querySelector('.powers-answer4').textContent =c
+})
