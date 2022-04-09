@@ -26,7 +26,7 @@
 
 // }, 3500)
 let df = document.querySelector(".button1")
-df.addEventListener("click" , (e) =>{
+df.addEventListener("click", (e) =>{
 
     let a= document.querySelector('.power-a').value
     let b= document.querySelector('.power-b').value
@@ -47,10 +47,4 @@ k.addEventListener("click" , (e) =>{
     let d= Math.PI*x
     document.querySelector('.powers-answer3').textContent =d
 })
-let density=document.querySelector(".button4")
-density.addEventListener("click" , (e) =>{
-    let a= document.querySelector('.weight').value
-    let b= document.querySelector('.volume').value
-    let c=a/b
-    document.querySelector('.powers-answer4').textContent =c
-})
+
